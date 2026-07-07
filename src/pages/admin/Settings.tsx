@@ -9,19 +9,19 @@ import { toast } from "sonner";
 import { useDocumentTitle } from "@/hooks/use-document-title";
 
 export default function Settings() {
-  useDocumentTitle("Settings — LuxeEstate Admin");
+  useDocumentTitle("Settings — Vibby Luxury Home Admin");
   return (
     <AdminShell title="Settings" breadcrumb="Admin · System · Settings">
       <form className="grid gap-5 lg:grid-cols-[1fr_300px]" onSubmit={(e) => { e.preventDefault(); toast.success("Settings saved"); }}>
         <div className="space-y-5">
           <Card title="Organization">
             <div className="grid gap-3 md:grid-cols-2">
-              <Field label="Company name"><Input defaultValue="LuxeEstate" /></Field>
-              <Field label="Website"><Input defaultValue="luxeestate.com" /></Field>
-              <Field label="Support email"><Input type="email" defaultValue="concierge@luxeestate.com" /></Field>
+               <Field label="Company name"><Input defaultValue="Vibby Luxury Home" /></Field>
+               <Field label="Website"><Input defaultValue="viblyluxuryhome.com" /></Field>
+               <Field label="Support email"><Input type="email" defaultValue="concierge@viblyluxuryhome.com" /></Field>
               <Field label="Phone"><Input defaultValue="+1 (310) 555-0188" /></Field>
             </div>
-            <Field label="About"><Textarea rows={3} defaultValue="LuxeEstate is the world's most trusted platform for luxury real estate." /></Field>
+               <Field label="About"><Textarea rows={3} defaultValue="Vibby Luxury Home is the world's most trusted platform for luxury real estate." /></Field>
           </Card>
           <Card title="Notifications">
             {[

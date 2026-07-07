@@ -8,7 +8,7 @@ import { StatusPill, channelBadge } from "@/lib/admin-ui";
 import { useDocumentTitle } from "@/hooks/use-document-title";
 
 export default function Dashboard() {
-  useDocumentTitle("Dashboard — LuxeEstate Admin");
+  useDocumentTitle("Dashboard — Vibby Luxury Home Admin");
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"];
   const values = [0.92, 0.78, 1.05, 1.12, 1.18, 1.28, 1.42];
   const max = Math.max(...values);

@@ -15,7 +15,7 @@ import { toast } from "sonner";
 type StatusFilter = "All" | "Active" | "Pending" | "Sold";
 
 export default function AdminProperties() {
-  useDocumentTitle("Properties — LuxeEstate Admin");
+  useDocumentTitle("Properties — Vibby Luxury Home Admin");
   const [filter, setFilter] = useState<StatusFilter>("All");
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<string[]>([]);

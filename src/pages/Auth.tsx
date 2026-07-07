@@ -8,7 +8,7 @@ import { useDocumentTitle } from "@/hooks/use-document-title";
 import { AuthCarousel } from "@/components/auth-carousel";
 
 export default function Auth() {
-  useDocumentTitle("Sign in — LuxeEstate");
+  useDocumentTitle("Sign in — Vibby Luxury Home");
   const nav = useNavigate();
   return (
     <div className="grid min-h-screen lg:grid-cols-2">
@@ -17,7 +17,7 @@ export default function Auth() {
         <div className="mx-auto w-full max-w-sm">
           <Link to="/" className="mb-6 flex items-center gap-2 lg:hidden">
             <span className="grid h-8 w-8 place-items-center rounded-md gradient-brand text-primary-foreground"><Building2 className="h-4 w-4" /></span>
-            <span className="text-base font-semibold">LuxeEstate</span>
+            <span className="text-base font-semibold">Vibby Luxury Home</span>
           </Link>
           <h1 className="text-2xl font-display md:text-3xl">Welcome back</h1>
           <p className="mt-1 text-sm text-muted-foreground">Sign in to access your dashboard.</p>

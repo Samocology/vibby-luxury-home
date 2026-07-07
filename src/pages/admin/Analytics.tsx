@@ -3,7 +3,7 @@ import { TrendingUp, Users, Building2, DollarSign } from "lucide-react";
 import { useDocumentTitle } from "@/hooks/use-document-title";
 
 export default function Analytics() {
-  useDocumentTitle("Analytics — LuxeEstate Admin");
+  useDocumentTitle("Analytics — Vibby Luxury Home Admin");
   const traffic = [42, 58, 51, 69, 78, 84, 92, 88, 95, 110, 118, 132];
   const max = Math.max(...traffic);
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];

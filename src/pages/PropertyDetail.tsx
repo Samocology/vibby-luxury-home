@@ -22,7 +22,7 @@ const amenities = [
 export default function PropertyDetail() {
   const { id = "" } = useParams();
   const p = propertyById(id);
-  useDocumentTitle(p ? `${p.title} — LuxeEstate` : "Property — LuxeEstate", p?.description);
+  useDocumentTitle(p ? `${p.title} — Vibby Luxury Home` : "Property — Vibby Luxury Home", p?.description);
 
   const gallery = useMemo(() => {
     if (!p) return [];

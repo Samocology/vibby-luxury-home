@@ -38,7 +38,7 @@ export function SiteHeader({ transparent = false }: { transparent?: boolean }) {
             <Building2 className="h-4.5 w-4.5" />
           </span>
           <div className="flex flex-col">
-            <span className="text-base font-bold tracking-tight leading-none">LuxeEstate</span>
+            <span className="text-base font-bold tracking-tight leading-none">Vibby Luxury Home</span>
             <span className="text-[10px] font-medium tracking-[0.2em] uppercase text-muted-foreground/70 leading-none mt-0.5">
               Premium Living
             </span>

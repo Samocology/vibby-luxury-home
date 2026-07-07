@@ -13,7 +13,7 @@ import hero from "@/assets/hero-mansion.jpg";
 import type { ReactNode } from "react";
 
 export default function Home() {
-  useDocumentTitle("LuxeEstate — Find Your Luxury Dream Home", "Discover world-class luxury properties from $1M to $100M+.");
+  useDocumentTitle("Vibby Luxury Home — Find Your Luxury Dream Home", "Discover world-class luxury properties from $1M to $100M+.");
   const handpicked = properties.filter((p) => p.featured).slice(0, 3);
   const recent = properties.slice(0, 4);
   return (
@@ -40,7 +40,7 @@ export default function Home() {
                 <Link to="/properties">Explore Properties <ArrowRight className="ml-1 h-4 w-4" /></Link>
               </Button>
               <Button size="sm" variant="outline" className="border-white/40 bg-white/10 text-white hover:bg-white/20 hover:text-white">
-                <PlayCircle className="mr-1 h-4 w-4" /> Watch Video
+                 <Link to="/contact">Book a Consultation</Link>
               </Button>
             </div>
             <dl className="grid grid-cols-2 gap-4 pt-2 sm:grid-cols-4">
@@ -161,7 +161,7 @@ export default function Home() {
       <Section eyebrow="Testimonials" title={<>What Our <span className="text-gradient-brand">Clients Say</span></>}>
         <div className="grid gap-5 md:grid-cols-3">
           {[
-            { name: "Michael Thompson", role: "CEO, Tech Founder", quote: "LuxeEstate's team made our dream home purchase seamless. Their agents are incredibly knowledgeable." },
+             { name: "Michael Thompson", role: "CEO, Tech Founder", quote: "Vibby Luxury Home's team made our dream home purchase seamless. Their agents are incredibly knowledgeable." },
             { name: "Layla Al-Rashid", role: "Investor", quote: "As an international investor, I needed a platform I could trust. The team delivered exceptional ROI from day one." },
             { name: "Sophie Bauwens", role: "Family Office", quote: "Their concierge service is world-class. We've expanded our portfolio across three continents." },
           ].map((t) => (

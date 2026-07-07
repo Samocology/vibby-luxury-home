@@ -14,7 +14,7 @@ const perks = [
 ];
 
 export default function Signup() {
-  useDocumentTitle("Create account — LuxeEstate");
+  useDocumentTitle("Create account — Vibby Luxury Home");
   const nav = useNavigate();
   return (
     <div className="grid min-h-screen lg:grid-cols-2">
@@ -23,7 +23,7 @@ export default function Signup() {
         <div className="mx-auto w-full max-w-sm">
           <Link to="/" className="mb-6 flex items-center gap-2 lg:hidden">
             <span className="grid h-8 w-8 place-items-center rounded-md gradient-brand text-primary-foreground"><Building2 className="h-4 w-4" /></span>
-            <span className="text-base font-semibold">LuxeEstate</span>
+            <span className="text-base font-semibold">Vibby Luxury Home</span>
           </Link>
           <h1 className="text-2xl font-display md:text-3xl">Create your account</h1>
           <p className="mt-1 text-sm text-muted-foreground">Join thousands of buyers, sellers and investors.</p>
@@ -48,7 +48,7 @@ export default function Signup() {
                 toast.error("Password must be at least 6 characters");
                 return;
               }
-              toast.success("Account created — welcome to LuxeEstate");
+               toast.success("Account created — welcome to Vibby Luxury Home");
               nav("/admin");
             }}
           >

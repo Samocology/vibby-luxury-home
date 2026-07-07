@@ -7,7 +7,7 @@ import { Building2, Shield, TrendingUp, Globe2, Star, CheckCircle2, ArrowRight }
 import { useDocumentTitle } from "@/hooks/use-document-title";
 
 export default function Invest() {
-  useDocumentTitle("Invest in Luxury Real Estate — LuxeEstate");
+  useDocumentTitle("Invest in Luxury Real Estate — Vibby Luxury Home");
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
@@ -45,7 +45,7 @@ export default function Invest() {
       <section className="py-14">
         <div className="container-page">
           <div className="text-center">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Why LuxeEstate</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Why Vibby Luxury Home</p>
             <h2 className="mt-1.5 text-3xl font-display md:text-4xl">The Smart Way to <span className="text-gradient-brand">Invest</span></h2>
           </div>
           <div className="mt-10 grid gap-5 md:grid-cols-4">
@@ -140,7 +140,7 @@ export default function Invest() {
           </div>
           <div className="mt-10 grid gap-5 md:grid-cols-3">
             {[
-              { name: "Henri Dubois", role: "Family Office · Paris", quote: "Consistent double-digit returns and best-in-class reporting. LuxeEstate is now our default real-estate partner." },
+               { name: "Henri Dubois", role: "Family Office · Paris", quote: "Consistent double-digit returns and best-in-class reporting. Vibby Luxury Home is now our default real-estate partner." },
               { name: "Priya Anand", role: "Angel Investor · Singapore", quote: "The diligence packs are exhaustive. I've never had a smoother onboarding into private RE." },
               { name: "Marc Vollmer", role: "Fund Manager · Zurich", quote: "Transparent structuring and reliable distributions across five consecutive quarters." },
             ].map((t) => (

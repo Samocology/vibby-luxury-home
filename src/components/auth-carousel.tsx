@@ -35,7 +35,7 @@ export function AuthCarousel() {
           <span className="grid h-8 w-8 place-items-center rounded-md gradient-brand text-primary-foreground">
             <Building2 className="h-4 w-4" />
           </span>
-          <span className="text-base font-semibold">LuxeEstate</span>
+          <span className="text-base font-semibold">Vibby Luxury Home</span>
         </Link>
         <div>
           <p className="text-2xl font-display leading-tight md:text-3xl">"{slides[i].quote}"</p>

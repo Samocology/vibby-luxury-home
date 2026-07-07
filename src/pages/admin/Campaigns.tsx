@@ -16,7 +16,7 @@ import { toast } from "sonner";
 type Campaign = (typeof seed)[number];
 
 export default function Campaigns() {
-  useDocumentTitle("Email Campaigns — LuxeEstate Admin");
+  useDocumentTitle("Email Campaigns — Vibby Luxury Home Admin");
   const [rows, setRows] = useState<Campaign[]>(seed);
   const [open, setOpen] = useState(false);
   const [editing, setEditing] = useState<Campaign | null>(null);

@@ -9,7 +9,7 @@ import { channelBadge } from "@/lib/admin-ui";
 import { useDocumentTitle } from "@/hooks/use-document-title";
 
 export default function Inquiries() {
-  useDocumentTitle("Inquiries — LuxeEstate Admin");
+  useDocumentTitle("Inquiries — Vibby Luxury Home Admin");
   const [activeId, setActiveId] = useState(inquiries[0].id);
   const active = inquiries.find((i) => i.id === activeId)!;
   const prop = propertyById(active.propertyId);

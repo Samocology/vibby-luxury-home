@@ -83,7 +83,7 @@ const stats = [
 ];
 
 export default function Contact() {
-  useDocumentTitle("Contact — LuxeEstate");
+  useDocumentTitle("Contact — Vibby Luxury Home");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -148,7 +148,7 @@ export default function Contact() {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { icon: Phone, title: "Call Us", detail: "+1 (310) 555-0188", sub: "Mon–Fri, 8am–8pm PT", href: "tel:+13105550188", accent: "from-blue-500/10 to-blue-500/5" },
-              { icon: Mail, title: "Email", detail: "concierge@luxeestate.com", sub: "Reply within 4 hours", href: "mailto:concierge@luxeestate.com", accent: "from-emerald-500/10 to-emerald-500/5" },
+              { icon: Mail, title: "Email", detail: "concierge@viblyluxuryhome.com", sub: "Reply within 4 hours", href: "mailto:concierge@viblyluxuryhome.com", accent: "from-emerald-500/10 to-emerald-500/5" },
               { icon: MessageSquare, title: "WhatsApp", detail: "+1 (310) 555-0177", sub: "Instant chat with advisor", href: "https://wa.me/13105550177", accent: "from-green-500/10 to-green-500/5" },
               { icon: MapPin, title: "Visit HQ", detail: "West Hollywood, CA", sub: "By appointment only", href: "#offices", accent: "from-amber-500/10 to-amber-500/5" },
             ].map((item) => (
@@ -454,7 +454,7 @@ export default function Contact() {
           <div className="mt-12 text-center">
             <p className="text-sm text-muted-foreground">
               Still have questions?{" "}
-              <a href="mailto:concierge@luxeestate.com" className="font-medium text-primary underline underline-offset-4 hover:text-primary/80">
+               <a href="mailto:concierge@viblyluxuryhome.com" className="font-medium text-primary underline underline-offset-4 hover:text-primary/80">
                 Email us directly
               </a>
             </p>

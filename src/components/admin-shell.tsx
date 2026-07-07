@@ -41,12 +41,10 @@ function SidebarInner({ onNavigate }: { onNavigate?: () => void }) {
       <Link
         to="/admin"
         onClick={onNavigate}
-        className="flex items-center gap-2 border-b border-sidebar-border/60 px-5 py-4"
+        className="flex items-center gap-2.5 border-b border-sidebar-border/60 px-5 py-4"
       >
-        <span className="grid h-8 w-8 place-items-center rounded-md gradient-brand text-primary-foreground">
-          <Building2 className="h-4 w-4" />
-        </span>
-        <span className="text-sm font-semibold">LuxeEstate</span>
+        <img src="/vlh.png" alt="Vibby Luxury Home" className="h-8 w-8 rounded-md object-cover" />
+        <span className="text-sm font-semibold">Vibby Luxury Home</span>
         <span className="ml-auto rounded bg-sidebar-accent px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider">Admin</span>
       </Link>
       <nav className="flex-1 space-y-5 overflow-y-auto px-3 py-5">

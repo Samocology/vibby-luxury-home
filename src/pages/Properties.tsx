@@ -63,7 +63,7 @@ export default function Properties() {
     });
   };
 
-  useDocumentTitle("Browse Luxury Properties — LuxeEstate");
+  useDocumentTitle("Browse Luxury Properties — Vibby Luxury Home");
   
   return (
     <div className="min-h-screen bg-background">

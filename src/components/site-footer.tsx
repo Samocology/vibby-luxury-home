@@ -12,7 +12,7 @@ export function SiteFooter() {
             <span className="grid h-8 w-8 place-items-center rounded-md gradient-brand text-primary-foreground">
               <Building2 className="h-4 w-4" />
             </span>
-            <span className="text-base font-semibold">LuxeEstate</span>
+            <span className="text-base font-semibold">Vibby Luxury Home</span>
           </Link>
           <p className="mt-3 max-w-sm text-xs text-muted-foreground">
             The world's most trusted platform for luxury real estate discovery, investment, and portfolio management.
@@ -37,7 +37,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border">
         <div className="container-page flex flex-col items-start justify-between gap-2 py-4 text-xs text-muted-foreground sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} LuxeEstate. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Vibby Luxury Home. All rights reserved.</p>
           <div className="flex gap-4">
             <Link to="/contact">Privacy</Link>
             <Link to="/contact">Terms</Link>
